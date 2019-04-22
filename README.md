@@ -22,9 +22,11 @@ o novo ID será gerado automaticamente pela sequence do Postgres.
 
 2. Consultar:
 
-a) pelo CEP:
+a) pelo CEP: http://localhost:8082/api/consultarEndereco/68098455 retornando o endereço correspondente.
 
-b) pelo endereço:
+b) pelo endereço: http://localhost:8082/api/consultarCEP/Rua Dr Joao Colin, 1317
+retornando o CEP correspondente.
+OBS: Note e considere os espaços no endereço.
 
 
 3. Exclusão: Escolha o método DEL e informe a URL como esta
